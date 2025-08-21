@@ -1,0 +1,317 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "80b1c0ad-72cb-4422-a04f-b542895dec3e",
+  "workspaceId": "e33094f3-cabb-4a27-9d20-421023bf6a21",
+  "dataSourceInstructions": null,
+  "displayName": "coffee_shop_ravi_2",
+  "type": "semantic_model",
+  "metadata": {},
+  "elements": [
+    {
+      "id": "5b03ebf6-071b-4193-ab2d-6398e7233bbc",
+      "is_selected": true,
+      "display_name": "happy hour",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "e4cb9b4f-0439-4b6c-a4d3-f1bb27aa369b",
+          "is_selected": true,
+          "display_name": "happy hours",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": "number of happy hours",
+          "children": []
+        },
+        {
+          "id": "f790e027-4e1d-40bc-b686-63e7f24b1c1b",
+          "is_selected": true,
+          "display_name": "hh id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d9854bd9-974d-47a6-912e-cc818a607aac",
+          "is_selected": true,
+          "display_name": "month",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7c801df4-aa40-4119-9fac-2f61b9859dbb",
+          "is_selected": true,
+          "display_name": "num of shaff in charge",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "3129d2bd-6f53-4e74-821a-d718ef09652b",
+          "is_selected": true,
+          "display_name": "shop id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "fd52f716-5f68-46a1-b6b4-01466340a3dd",
+      "is_selected": true,
+      "display_name": "happy hour member",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "df21f9b4-309b-40b3-ba13-c624c5b5e7f6",
+          "is_selected": true,
+          "display_name": "hh id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "3bd6fac9-2f21-4b47-96ab-1beed350a2f6",
+          "is_selected": true,
+          "display_name": "member id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "da58f195-ec0b-4b24-81da-a43cd964bb08",
+          "is_selected": true,
+          "display_name": "total amount",
+          "type": "semantic_model.column",
+          "data_type": "Decimal",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "91f300aa-f4db-47fe-8305-be861bc97b68",
+      "is_selected": false,
+      "display_name": "member",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "b429fb4b-5223-474a-8e5b-099f5f1663df",
+          "is_selected": true,
+          "display_name": "address",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "34d46b93-9cf0-4356-a05d-c6bd7b41d31e",
+          "is_selected": true,
+          "display_name": "age",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2b6334fa-0417-4f20-a9c0-b5ed7482a93d",
+          "is_selected": true,
+          "display_name": "black level members",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": "number of black level members",
+          "children": []
+        },
+        {
+          "id": "d23c8a9f-1bda-4d50-adcd-71192992253a",
+          "is_selected": true,
+          "display_name": "black level members under 30",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": "number of black level members under 30",
+          "children": []
+        },
+        {
+          "id": "9606ff48-31e5-4620-a3c8-206c7f5a8fdd",
+          "is_selected": true,
+          "display_name": "hartford or waterbury members",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": "number members from hartford and waterbury",
+          "children": []
+        },
+        {
+          "id": "49378692-c7a6-4047-bf81-0edf591ac5ba",
+          "is_selected": true,
+          "display_name": "level of membership",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "943c7743-99e0-4c33-8507-7ed31c60129f",
+          "is_selected": true,
+          "display_name": "member id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c8aa8d02-6c04-4ab2-8a69-5bfe9799d4a8",
+          "is_selected": true,
+          "display_name": "members",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": "number of members",
+          "children": []
+        },
+        {
+          "id": "4bf8f114-e5c1-4bea-aa82-bcdfe879521b",
+          "is_selected": true,
+          "display_name": "members not from hartford",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "b8478126-2150-4361-b4b3-4a9738ece1cc",
+          "is_selected": true,
+          "display_name": "membership card",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "092f9dfc-0699-427c-88c4-30909a9b6c11",
+          "is_selected": true,
+          "display_name": "name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7d80cd91-9f10-497c-8af8-057f04a4cd12",
+          "is_selected": true,
+          "display_name": "time of purchase",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ec36503b-1cd0-46ca-a627-c47bb17b48f2",
+      "is_selected": false,
+      "display_name": "shop",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "2c863a94-5b88-44c1-84b6-ccd9a699ff55",
+          "is_selected": true,
+          "display_name": "address",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "15b111d4-52ed-4686-bd77-d67901700d6a",
+          "is_selected": true,
+          "display_name": "average score",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": "average score",
+          "children": []
+        },
+        {
+          "id": "0cd6dc2e-99d6-44ed-a974-accdc2b11993",
+          "is_selected": true,
+          "display_name": "average score of shops below group average",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": "number of score below the group average",
+          "children": []
+        },
+        {
+          "id": "e9e7cca1-e271-43b0-b5bc-a4af33025185",
+          "is_selected": true,
+          "display_name": "average score of shops without happy hour",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "943ae76a-895b-4813-95c4-f6d180ea2fa0",
+          "is_selected": true,
+          "display_name": "average score of store with happy hours in may",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": "average score of store with happy hours in may",
+          "children": []
+        },
+        {
+          "id": "d22d6495-e79e-4d99-897b-21512eae18f3",
+          "is_selected": true,
+          "display_name": "average staff",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": "average number of staff",
+          "children": []
+        },
+        {
+          "id": "c381d1d9-caa5-4792-89fe-3dc2ed035aa7",
+          "is_selected": true,
+          "display_name": "num of staff",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0ce781ae-9b42-4d7a-8e92-b111c0bdfd78",
+          "is_selected": true,
+          "display_name": "open year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "9e238a1b-33cc-4a37-a475-a5e9e6cee035",
+          "is_selected": true,
+          "display_name": "score",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f4a65a2a-9c2e-4cb9-b6d2-4107704fc59f",
+          "is_selected": true,
+          "display_name": "shop id",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "f7102aab-f7c6-429a-a42d-8f278a8250f0",
+  "workspaceId": "81412fbe-9da4-409d-b296-d1ea0ee5dd14",
+  "dataSourceInstructions": "lakehouse instructions",
+  "displayName": "LH0",
+  "type": "lakehouse_tables",
+  "metadata": {},
+  "elements": [
+    {
+      "id": "7caadf03-bba2-43c9-84dd-fecd0bda6a7b",
+      "is_selected": false,
+      "display_name": "dbo",
+      "type": "lakehouse_tables.schema",
+      "description": null,
+      "children": [
+        {
+          "id": "745b5958-f882-4f5c-8bc0-d77f9e591a9c",
+          "is_selected": true,
+          "display_name": "mlsamples___parquet",
+          "type": "lakehouse_tables.table",
+          "description": null,
+          "children": [
+            {
+              "id": "d6dc53c7-a408-4ba9-a583-356d2a61d8da",
+              "is_selected": true,
+              "display_name": "AGE",
+              "type": "lakehouse_tables.column",
+              "data_type": "bigint",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "d8a92501-ffe7-4813-b9c2-5d2db2afe58c",
+              "is_selected": true,
+              "display_name": "BMI",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "1b6922bf-6f5c-4e45-83b2-1cf19d9331da",
+              "is_selected": true,
+              "display_name": "BP",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "f621d619-ff45-4976-8fa8-725092e9311a",
+              "is_selected": true,
+              "display_name": "S1",
+              "type": "lakehouse_tables.column",
+              "data_type": "bigint",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "06f2a727-8809-468d-9b50-229f6eeeb524",
+              "is_selected": true,
+              "display_name": "S2",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "ffea3847-f92c-4fa9-a99f-63177c0d01da",
+              "is_selected": true,
+              "display_name": "S3",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "4493de63-7cda-4db8-8860-ea8da96893b7",
+              "is_selected": true,
+              "display_name": "S4",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "202585de-4842-47a7-b266-5a216d6f927f",
+              "is_selected": true,
+              "display_name": "S5",
+              "type": "lakehouse_tables.column",
+              "data_type": "float",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "9f9f1a84-b457-4824-bf79-4cd36d5b6b9a",
+              "is_selected": true,
+              "display_name": "S6",
+              "type": "lakehouse_tables.column",
+              "data_type": "bigint",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "72726c66-1410-4130-a3aa-7b2b1da747aa",
+              "is_selected": true,
+              "display_name": "SEX",
+              "type": "lakehouse_tables.column",
+              "data_type": "bigint",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "a5fe5aff-359b-40c1-8aab-e1ff042b2faf",
+              "is_selected": true,
+              "display_name": "Y",
+              "type": "lakehouse_tables.column",
+              "data_type": "bigint",
+              "description": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

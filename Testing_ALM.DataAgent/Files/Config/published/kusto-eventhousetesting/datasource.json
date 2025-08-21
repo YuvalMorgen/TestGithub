@@ -1,0 +1,218 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "ff8645a2-192f-4acd-aed5-3e3eb92a2e6b",
+  "workspaceId": "ac582186-d88a-4c2f-a587-b7ca6fd75506",
+  "dataSourceInstructions": "eventhouse instructions",
+  "displayName": "eventhousetesting",
+  "type": "kusto",
+  "metadata": {},
+  "elements": [
+    {
+      "id": "34682b0f-5dc3-4fcd-be25-f1cdd431d813",
+      "is_selected": true,
+      "display_name": "Weather",
+      "type": "kusto.table",
+      "description": null,
+      "children": [
+        {
+          "id": "BeginLat",
+          "is_selected": true,
+          "display_name": "BeginLat",
+          "type": "kusto.column",
+          "data_type": "System.Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "BeginLocation",
+          "is_selected": true,
+          "display_name": "BeginLocation",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "BeginLon",
+          "is_selected": true,
+          "display_name": "BeginLon",
+          "type": "kusto.column",
+          "data_type": "System.Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "DamageCrops",
+          "is_selected": true,
+          "display_name": "DamageCrops",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "DamageProperty",
+          "is_selected": true,
+          "display_name": "DamageProperty",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "DeathsDirect",
+          "is_selected": true,
+          "display_name": "DeathsDirect",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "DeathsIndirect",
+          "is_selected": true,
+          "display_name": "DeathsIndirect",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EndLat",
+          "is_selected": true,
+          "display_name": "EndLat",
+          "type": "kusto.column",
+          "data_type": "System.Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EndLocation",
+          "is_selected": true,
+          "display_name": "EndLocation",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EndLon",
+          "is_selected": true,
+          "display_name": "EndLon",
+          "type": "kusto.column",
+          "data_type": "System.Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EndTime",
+          "is_selected": true,
+          "display_name": "EndTime",
+          "type": "kusto.column",
+          "data_type": "System.DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EpisodeId",
+          "is_selected": true,
+          "display_name": "EpisodeId",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EpisodeNarrative",
+          "is_selected": true,
+          "display_name": "EpisodeNarrative",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EventId",
+          "is_selected": true,
+          "display_name": "EventId",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EventNarrative",
+          "is_selected": true,
+          "display_name": "EventNarrative",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "EventType",
+          "is_selected": true,
+          "display_name": "EventType",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "InjuriesDirect",
+          "is_selected": true,
+          "display_name": "InjuriesDirect",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "InjuriesIndirect",
+          "is_selected": true,
+          "display_name": "InjuriesIndirect",
+          "type": "kusto.column",
+          "data_type": "System.Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "Source",
+          "is_selected": true,
+          "display_name": "Source",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "StartTime",
+          "is_selected": true,
+          "display_name": "StartTime",
+          "type": "kusto.column",
+          "data_type": "System.DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "State",
+          "is_selected": true,
+          "display_name": "State",
+          "type": "kusto.column",
+          "data_type": "System.String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "StormSummary",
+          "is_selected": true,
+          "display_name": "StormSummary",
+          "type": "kusto.column",
+          "data_type": "System.Object",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
